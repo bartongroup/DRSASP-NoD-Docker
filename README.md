@@ -1,4 +1,4 @@
-# Running the NoD with Docker
+# Running NoD with Docker
 
 This guide will show you how to run  `NoD` inside a Docker container and use Docker bind mounts to access input and output files on your host system.
 
