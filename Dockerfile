@@ -21,7 +21,7 @@ COPY bin/clinod-1.3.jar /app/bin/
 COPY bin/nod /app/bin/
 
 # Set the working directory to /app
-WORKDIR /app
+WORKDIR /app/data
 
 # Add /app/bin to the PATH
 ENV PATH="/app/bin:${PATH}"
